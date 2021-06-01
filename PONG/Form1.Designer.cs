@@ -40,10 +40,11 @@ namespace PONG
             // 
             this.p1ScoreLabel.BackColor = System.Drawing.Color.Transparent;
             this.p1ScoreLabel.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p1ScoreLabel.ForeColor = System.Drawing.Color.White;
-            this.p1ScoreLabel.Location = new System.Drawing.Point(296, 9);
+            this.p1ScoreLabel.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.p1ScoreLabel.Location = new System.Drawing.Point(237, 7);
+            this.p1ScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.p1ScoreLabel.Name = "p1ScoreLabel";
-            this.p1ScoreLabel.Size = new System.Drawing.Size(57, 29);
+            this.p1ScoreLabel.Size = new System.Drawing.Size(46, 23);
             this.p1ScoreLabel.TabIndex = 0;
             this.p1ScoreLabel.Text = "0";
             this.p1ScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -52,10 +53,11 @@ namespace PONG
             // 
             this.p2ScoreLabel.BackColor = System.Drawing.Color.Transparent;
             this.p2ScoreLabel.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p2ScoreLabel.ForeColor = System.Drawing.Color.White;
-            this.p2ScoreLabel.Location = new System.Drawing.Point(390, 9);
+            this.p2ScoreLabel.ForeColor = System.Drawing.Color.LawnGreen;
+            this.p2ScoreLabel.Location = new System.Drawing.Point(312, 7);
+            this.p2ScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.p2ScoreLabel.Name = "p2ScoreLabel";
-            this.p2ScoreLabel.Size = new System.Drawing.Size(57, 29);
+            this.p2ScoreLabel.Size = new System.Drawing.Size(46, 23);
             this.p2ScoreLabel.TabIndex = 1;
             this.p2ScoreLabel.Text = "0";
             this.p2ScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -65,9 +67,10 @@ namespace PONG
             this.winLabel.BackColor = System.Drawing.Color.Transparent;
             this.winLabel.Font = new System.Drawing.Font("Courier New", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.winLabel.ForeColor = System.Drawing.Color.White;
-            this.winLabel.Location = new System.Drawing.Point(26, 170);
+            this.winLabel.Location = new System.Drawing.Point(21, 136);
+            this.winLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.winLabel.Name = "winLabel";
-            this.winLabel.Size = new System.Drawing.Size(712, 29);
+            this.winLabel.Size = new System.Drawing.Size(570, 23);
             this.winLabel.TabIndex = 2;
             this.winLabel.Text = "win";
             this.winLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -81,15 +84,16 @@ namespace PONG
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(750, 500);
+            this.ClientSize = new System.Drawing.Size(600, 400);
             this.Controls.Add(this.winLabel);
             this.Controls.Add(this.p2ScoreLabel);
             this.Controls.Add(this.p1ScoreLabel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
